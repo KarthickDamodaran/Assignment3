@@ -30,6 +30,12 @@ void printMsg(const int a)
 	 sprintf(Msg, "\nNor Gate");
 	 ptr = Msg ;
 	}
+	
+	if(a==5)
+	{
+	 sprintf(Msg, "\nXnor Gate");
+	 ptr = Msg ;
+	}
    while(*ptr != '\0'){
       ITM_SendChar(*ptr);
       ++ptr;
